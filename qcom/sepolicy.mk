@@ -11,5 +11,5 @@ endif
 
 ifneq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_SEPOLICY_DIRS += \
-    device/ancient/sepolicy/qcom/vendor
+    device/custom/sepolicy/qcom/vendor
 endif
